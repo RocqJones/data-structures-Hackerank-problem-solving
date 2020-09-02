@@ -16,5 +16,13 @@ if __name__ == '__main__':
     arr = list(map(int, input().rstrip().split()))
 
     reverseArray(arr)
-
     # res = reverseArray(arr)
+
+"""
+    Sample input
+    4
+    1 4 3 2
+    
+    Sample output
+    2 3 4 1
+"""
