@@ -8,4 +8,5 @@ Data Structures (Python3)
 ## 1. Array Data Structure.
 * Array (Simple)
 * 2D Array.
-* Dynamic Array.
+* Dynamic Array - *IF YOU CAN SOLVE THIS FEEL FREE TO CONTRIBUTE*
+* Left Rotation.
