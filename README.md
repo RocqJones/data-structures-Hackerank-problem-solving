@@ -11,3 +11,5 @@ Data Structures (Python3)
 * Dynamic Array - *IF YOU CAN SOLVE THIS FEEL FREE TO CONTRIBUTE*
 * Left Rotation (Medium)
 * Array Manipulation (Hard)
+
+## 2. Linked List.
