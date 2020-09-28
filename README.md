@@ -14,3 +14,4 @@ Data Structures (Python3)
 * Array Manipulation (Hard)
 
 ## 2. Linked List.
+* Printing elements of a Linked List
