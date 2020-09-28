@@ -15,3 +15,4 @@ Data Structures (Python3)
 
 ## 2. Linked List.
 * Printing elements of a Linked List (Easy)
+* Insert a Node at the Tail of a Linked List
