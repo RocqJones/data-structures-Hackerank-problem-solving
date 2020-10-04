@@ -29,6 +29,15 @@ def print_singly_linked_list(node):
 
 # Complete the reversePrint function below.
 def reversePrint(head):
+    if head:
+        stack = [head]
+        while stack[-1].next:
+            node = stack[-1]
+            stack.append(node.next)
+
+        while stack:
+            node = stack.pop()
+            print(node.data)
 
 if __name__ == '__main__':
     tests = int(input())
@@ -43,3 +52,39 @@ if __name__ == '__main__':
             llist.insert_node(llist_item)
 
         reversePrint(llist.head)
+
+"""
+SAMPLE INPUT
+3
+5
+16
+12
+4
+2
+5
+3
+7
+3
+9
+5
+5
+1
+18
+3
+13
+
+OUTPUT
+5
+2
+4
+12
+16
+9
+3
+7
+13
+3
+18
+1
+5
+"""
