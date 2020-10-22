@@ -33,6 +33,13 @@ def print_singly_linked_list(node):
 #     int data
 #     SinglyLinkedListNode next
 def getNode(head, positionFromTail):
+    my_list = []
+    while head:
+        my_list.append(head.data)
+        head = head.next
+
+    # return t[-(positionFromTail + 1)]
+    print(my_list[-(positionFromTail + 1)])
 
 if __name__ == '__main__':
     tests = int(input())
